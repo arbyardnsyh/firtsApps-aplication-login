@@ -1,0 +1,41 @@
+NAMA: MOH. ARBI ARDIANSYAH
+
+NIM : 362358302150
+
+KELAS : 2B
+
+PRODI :TEKNOLOGI REKAYASA PERANGKAT LUNAK
+
+---
+
+                                    PROJECT UJIAN TENGAH SEMESTER 3 TAHUN 2024
+                                          MATA KULIAH MOBILE-DEVELOPMENT
+
+---
+
+
+DAFTAR ISI:
+
+A.HASIL AKHIR
+
+B.DESKRIPSI PROGRAM
+
+---
+
+
+A.HASIL AKHIR
+
+1.TAMPILAN LOGIN PAGE :
+
+![](image/loginPage.png)
+
+2.TAMPILAN REGISTER PAGE :
+
+![](image/registerPage.png)
+
+3.TAMPILAN WELCOME PAGE :
+
+![](image/welcomePage.png)
+
+
+
