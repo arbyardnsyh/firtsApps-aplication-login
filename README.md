@@ -27,15 +27,15 @@ A.HASIL AKHIR
 
 1.TAMPILAN LOGIN PAGE :
 
-![](image/loginPage.png)
+![]()
 
 2.TAMPILAN REGISTER PAGE :
 
-![](image/registerPage.png)
+![]()
 
 3.TAMPILAN WELCOME PAGE :
 
-![](image/welcomePage.png)
+![]()
 
 
 B.DESKRIPSI PROGRAM
