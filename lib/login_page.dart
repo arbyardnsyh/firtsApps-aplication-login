@@ -79,7 +79,7 @@ class _LoginPageState extends State<LoginPage> {
                 width: MediaQuery.of(context)
                     .size
                     .width, // Lebar penuh sesuai layar
-                height: 450,
+                height: 300,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage('assets/images/foto.jpeg'),

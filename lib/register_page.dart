@@ -33,7 +33,7 @@ class _RegisterPageState extends State<RegisterPage> {
             child: Container(
               width:
                   MediaQuery.of(context).size.width, // Lebar penuh sesuai layar
-              height: 400,
+              height: 250,
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage(
