@@ -12,11 +12,9 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController _passwordController = TextEditingController();
   String? _namaLengkap;
 
-  // Variabel untuk mengontrol opacity
   double _opacityWelcome = 1.0;
   double _opacityJourney = 1.0;
 
-  // Method untuk membuka URL
   Future<void> _launchURL(String url) async {
     final Uri uri = Uri.parse(url);
     if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
@@ -24,30 +22,26 @@ class _LoginPageState extends State<LoginPage> {
     }
   }
 
-  // Method untuk menangani klik pada teks "Selamat datang kembali!"
   void _onWelcomeTextTapped() {
     setState(() {
       _opacityWelcome = _opacityWelcome == 1.0 ? 0.5 : 1.0; // Toggle opacity
     });
-
-    // Mengembalikan opacity ke 1 setelah 500 ms
     Future.delayed(Duration(milliseconds: 500), () {
       setState(() {
-        _opacityWelcome = 1.0; // Kembalikan opacity ke normal
+        _opacityWelcome = 1.0; 
       });
     });
   }
 
-  // Method untuk menangani klik pada teks "Masuk dan mulai perjalananmu hari ini"
+ 
   void _onJourneyTextTapped() {
     setState(() {
       _opacityJourney = _opacityJourney == 1.0 ? 0.5 : 1.0; // Toggle opacity
     });
 
-    // Mengembalikan opacity ke 1 setelah 500 ms
     Future.delayed(Duration(milliseconds: 500), () {
       setState(() {
-        _opacityJourney = 1.0; // Kembalikan opacity ke normal
+        _opacityJourney = 1.0;
       });
     });
   }

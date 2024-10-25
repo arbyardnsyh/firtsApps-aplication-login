@@ -18,7 +18,9 @@ PRODI :TEKNOLOGI REKAYASA PERANGKAT LUNAK
 
 A.HASIL AKHIR
 
-B.DESKRIPSI PROGRAM
+B.FORM VALIDASI
+
+C.DESKRIPSI PROGRAM
 
 ---
 
@@ -29,16 +31,37 @@ A.HASIL AKHIR
 
 ![](image/loginPage.png)
 
+#PENJELASAN : 
+
+Sesuai perintah project yang diberikan, pengguna pertama kali  akan ditampilkan halaman login.
+Halaman login ini akan menampilkan form login yang terdiri dari 2 inputan yaitu  username dan password.
+Apabila pengguna belum memiliki akun maka terdapat tombol untuk  registrasi.
+
 2.TAMPILAN REGISTER PAGE :
 
 ![](image/registerPage.png)
+
+#PENJELASAN :
+
+Pada halaman  register, pengguna dapat mengisi form register yang terdiri dari 4 inputan yaitu  username, password, email, dan konfirmasi password. Apabila  pengguna telah mengisi form register dengan benar maka pengguna dapat melakukan registrasi. Dan ketika sudah melakukan registrasi  maka pengguna akan diarahkan ke halaman login.
 
 3.TAMPILAN WELCOME PAGE :
 
 ![](image/welcomePage.png)
 
+#PENJELASAN : Ketika sudah berhasil login dengan  menggunakan akun yang telah dibuat, maka pengguna akan diarahkan ke halaman welcome. Dan  pada halaman welcome ini pengguna dapat melihat username yang telah digunakan. Dan juga terdapat  tombol untuk keluar.
 
-B.DESKRIPSI PROGRAM
+B.VALIDASI AUNTENTIKASI
+
+1. FORM LOGIN :
+
+![](image/aut2.png)
+
+2. FORM REGISTER :
+
+![](image/aut1.png)
+
+C.DESKRIPSI PROGRAM
 
 1.LOGIN PAGE
 
